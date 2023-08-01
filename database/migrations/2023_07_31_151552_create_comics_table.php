@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('title');
             $table->text('description');
             $table->string('thumb');
-            $table->string('cover_image');
-            $table->string('thumb2');
+            $table->string('cover_image')->nullable();
+            $table->string('thumb2')->nullable();
             $table->string('price');
             $table->string('series');
             $table->date('sale_date');
