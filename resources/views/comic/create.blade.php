@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="card">
-                    <form action="{{ route('comic-store') }}" method="POST">
+                    <form action="{{ route('comics.store') }}" method="POST">
                         @csrf
                         <div class="form-group m-3">
                             <label class="control-label">Titolo</label>
